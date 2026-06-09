@@ -9,7 +9,7 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  background: url(./BackGroundInicio.png) center / cover no-repeat;
+  background: url(./img/BackgroundInicio.png) center / cover no-repeat;
 }
 .header::before {
   content: "";           /* obrigatório para existir */
