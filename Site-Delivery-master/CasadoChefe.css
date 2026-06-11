@@ -9,7 +9,7 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  background: url(./img/BackgroundInicio.png) center / cover no-repeat;
+  background: url(./BackGroundInicio.png) center / cover no-repeat;
 }
 .header::before {
   content: "";           /* obrigatório para existir */
@@ -227,6 +227,38 @@ body {
   font-family: "BJCree", serif;
   font-weight: 300;
   font-style: normal;
+}
+
+.cardapio {
+  display: flex;
+  justify-content: center;
+  padding: 80px 60px;
+}
+
+.card-header {
+  text-align: center;
+}
+
+.card-tag {
+  color: orange;
+  font-style: normal;
+  font-family: "BJCree", serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.card-titulo {
+  font-style: normal;
+  font-family: "BJCree", serif;
+  font-weight: 1000;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.card-desc {
+  font-style: normal;
+  font-family: "BJCree", serif;
+  font-weight: 500;
 }
 
 .info-time {
